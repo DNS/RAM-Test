@@ -2,20 +2,20 @@
 
 memtest - Test how much RAM usage until paging initiated, & test RAM is good or corrupted.
 
-*****************************************
+#############################################
 
-**Disable Paging:
+# Disable Paging:
 System Properties > Advanced > Performance > Advanced > Virtual Memory (Change) > No paging file
 
-** Build & Run:
+# Build & Run:
 build.bat
 
-** Result:
-- Windows 10 64-bit (8 GB RAM): 4.96 GB
-- Windows 10 64-bit (24 GB RAM): 20 GB
-- Windows 10 64-bit (32 GB RAM): 28 GB
+# Result:
+    - Windows 10 64-bit (8 GB RAM): 4.96 GB
+    - Windows 10 64-bit (24 GB RAM): 20 GB
+    - Windows 10 64-bit (32 GB RAM): 28 GB
 
-** Conclusion:
+# Conclusion:
 Windows 10 64-bit need at least 3-4 GB RAM (2.6 GB for OS, the rest for paging).
 
 
